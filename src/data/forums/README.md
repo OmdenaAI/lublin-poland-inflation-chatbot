@@ -1,6 +1,6 @@
 Forums data
 
-Data from forums myfico and bogleheads
+Data from forums myfico and bogleheads. Links to files on google drive because files are too big. 
 
 Metadata for myfico forum:
 1. Columns:
