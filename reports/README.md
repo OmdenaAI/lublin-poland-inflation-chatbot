@@ -56,7 +56,11 @@ From the insights of the EDA, we selected different data sources (Myfico, Boggle
 
 ##	Publishing
 
-[…]
+Following the finalization of the chatbot algorithm, an interface was created on the [Streamlit](https://streamlit.io/) platform. Streamlit is an open-source app framework for Machine Learning and Data Science. It helps create and publish web apps in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc., and it does not require any front-end experience.
+
+Streamlit was selected due to its multifunctionality and ease of usage. It also allows for the model to be hosted online and accessed by its users. For scalability, Flask was considered for integration with the Streamlit-hosted app.
+
+The interface created by our engineers on Streamlit accepts an input from the chatbot user. This input is then sent through the model and an appropriate output is generated and subsequently displayed to the user.
 
 # Conclusions
 
