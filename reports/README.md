@@ -12,7 +12,9 @@
 
 # Introduction
 
-[...]
+This challenge was created to create a conversational AI chatbot. Its main aim was to assist people affected by high inflation and increased cost of living. The challenge, which united an international team of AI engineers over 6 weeks, was led by chapter lead Bartosz Chojnacki.
+
+The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work.
 
 ## Problem statement
 
