@@ -8,7 +8,7 @@
 
 # Executive Summary
 
-[…]
+'Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living', a project by the Omdena Lublin Local Chapter led by chapter leader Chojnacki, lasted 6 weeks and saw the cooperation of an international team of AI engineers. These cooperated steadily to define the problem, collect question-answer pairs and financial information, pre-process and annotate the data, create a ML algorithm for its classification, and eventually deploy and publishing the chatbot in Streamlit. The project run smoothly and was completed successfully.
 
 # Introduction
 
