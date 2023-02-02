@@ -43,7 +43,7 @@ The goal of this project is to create a virtual chatbot that extracts the expres
 […]
 
 <p align="center">
-  <img width="70%" height="70%" src="images/image(1).png">
+  <img width="80%" height="80%" src="images/image(1).png">
 </p>
 
 <p align="center">
