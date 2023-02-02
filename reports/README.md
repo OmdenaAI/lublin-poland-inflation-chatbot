@@ -24,6 +24,8 @@ Inflation and high living costs have become a problem for the inhabitants of Pol
 
 The goal of this project is to create a virtual chatbot that extracts the expression of mental health states through dialogue-based human-computer interaction to support people who cannot cope in these difficult economic times. The resulting chatbot will also be able to answer any user's questions about the possibility of saving money or depositing it safely.
 
+![An image from the Omdena chapter webpage](images/banner.png)
+
 # Our solution
 
 […]
