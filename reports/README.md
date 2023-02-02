@@ -42,7 +42,17 @@ The goal of this project is to create a virtual chatbot that extracts the expres
 
 […]
 
-![EDA graph](images/image(1).png)
+<p align="center">
+  <img width="70%" height="70%" src="images/image(1).png">
+</p>
+
+<p align="center">
+  <img width="70%" height="70%" src="images/image(2).png">
+</p>
+
+<p align="center">
+  <img width="70%" height="70%" src="images/image(3).png">
+</p>
 
 ##	Data pre-processing
 
