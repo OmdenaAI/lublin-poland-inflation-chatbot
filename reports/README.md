@@ -47,11 +47,11 @@ The goal of this project is to create a virtual chatbot that extracts the expres
 </p>
 
 <p align="center">
-  <img width="70%" height="70%" src="images/image(2).png">
+  <img width="50%" height="50%" src="images/image(3).png">
 </p>
 
 <p align="center">
-  <img width="70%" height="70%" src="images/image(3).png">
+  <img width="70%" height="70%" src="images/image(2).png">
 </p>
 
 ##	Data pre-processing
