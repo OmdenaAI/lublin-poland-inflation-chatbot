@@ -8,11 +8,8 @@ st.set_page_config(
     page_icon=":robot:"
 )
 
-#API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
-#headers = {"Authorization": st.secrets['api_key']}
-
 st.header("Omdena Lublin Chapter: Financial Chatbot")
-#st.markdown("[Github](https://github.com/ai-yash/st-chat)")
+st.markdown("Disclaimer: The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
@@ -35,7 +32,7 @@ def model_response(question):
     restart_sequence = "\n\nQ: "
     response = openai.Completion.create(
     model= st.secrets["model"],
-    api_key = st.secrets["model"],
+    api_key = st.secrets["api_key"],
     prompt=restart_sequence+question+'\n\n###\n\n',
     temperature=0,
     # max tokens as response
