@@ -2,13 +2,16 @@ import streamlit as st
 from streamlit_chat import message
 import requests
 import openai
+import urllib.request
+from PIL import Image
 
 st.set_page_config(
     page_title="Omdena Lublin Chapter: Financial Chatbot",
-    page_icon=":robot:"
+    page_icon="https://i.ibb.co/ZYG59cp/omdena-transparent.png"
 )
 
 st.header("Omdena Lublin Chapter: Financial Chatbot")
+st.image("https://i.ibb.co/H2z983v/Omdena-Lublin-Chapter.jpg",caption=None, width=None, use_column_width=None, clamp=False, channels='RGB', output_format='auto')
 st.markdown("Disclaimer: The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.")
 
 if 'generated' not in st.session_state:
