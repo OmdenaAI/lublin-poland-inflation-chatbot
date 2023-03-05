@@ -12,9 +12,9 @@ st.set_page_config(
 
 st.image("https://i.ibb.co/H2z983v/Omdena-Lublin-Chapter.jpg",caption=None, width=300, use_column_width=None, clamp=False, channels='RGB', output_format='auto')
 st.header("Omdena Lublin Chapter: Financial Chatbot")
-st.markdown("Disclaimer: The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.")
+st.caption("Disclaimer: The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.")
 st.markdown("Wondering how to invest or save money in times of economic crisis? Here is the solution!")
-st.markdown("**Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living.**")
+st.subheader("**Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living.**")
 st.markdown("You can ask it questions like:")
 st.markdown("***How to invest $1000?***")
 st.markdown("***How to spend less?***")
