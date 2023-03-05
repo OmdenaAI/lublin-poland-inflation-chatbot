@@ -16,9 +16,7 @@ st.caption("Disclaimer: The Content is for informational purposes only, you shou
 st.markdown("Wondering how to invest or save money in times of economic crisis? Here is the solution!")
 st.subheader("**Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living.**")
 st.markdown("You can ask it questions like:")
-st.markdown("""- ***How to invest $1000?***
-               - ***How to spend less?***
-               - ***How to use credit card?***""")
+st.markdown("***How to invest $1000?*** ***How to spend less?*** ***How to use credit card?***")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
