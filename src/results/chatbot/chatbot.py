@@ -14,7 +14,6 @@ st.image("https://i.ibb.co/H2z983v/Omdena-Lublin-Chapter.jpg",caption=None, widt
 st.header("Omdena Lublin Chapter: Financial Chatbot")
 st.caption("Disclaimer: The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.")
 st.markdown("Wondering how to invest or save money in times of economic crisis? Here is the solution!")
-st.subheader("**Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living.**")
 st.markdown("You can ask it questions like:")
 st.markdown("***How to invest $1000?*** ***How to spend less?*** ***How to use credit card?***")
 
