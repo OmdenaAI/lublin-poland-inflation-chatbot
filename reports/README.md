@@ -70,18 +70,13 @@ From the insights of the EDA, we selected different data sources (Myfico, Boggle
 
 ###	Algorithm selection
 
-In this task we explored the possibility to train/finetune existing transformers and
-model languages. Work was divided on two teams: the first one explored using
-Bert Based models, the second team explored language models. We finally opted
-for   language   models   because   Transformers   models   were   text   classification
-oriented, and in the case of question answering they require context, meaning
-that   for   training   and   finetuning,   we   must   provide   the   model   with   questions,
-answers, and the text paragraph from which we extract the answer. The  dataset
-we built for the project did not have the required structure and its transformation
-was time consuming.  The language models were the best option for our project. 
-We found issues with the dataset build from data collected from social networks.
-many   questions/answers   were   out   of   context,   long   sentences   instead   of   clear
-questions/answers. We decided to go back to data collection. We found a good
+In this task, the team explored the possibility to train/finetune existing transformers-based language models. The team were initially divided into two teams: one exploring Bert-based models, and the second team exploring GPT3 language models. 
+
+The team eventually opted for the use of GPT-3 language models because all Transformer-based models tested by the team were text classification oriented, meaning that they require context in question-answering tasks. The  dataset we built for the project did not have the required structure and its transformation would have been unnecessarily time consuming.
+
+The GPT-3 language models were thus the best option for our project. We nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. 
+
+We therefore decided to go back to data collection. We found a good
 finance   Q&A   dataset   used   a  Financial Opinion Mining and Question
 Answering  challeng   (https://sites.google.com/view/fiqa/home).   As   the   dataset
 was   well  structured   and  with  coherent   Q&A   pairs,   we  decided  to   use  it   in   the
