@@ -8,21 +8,25 @@
 
 # Executive Summary
 
-'Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living', a project by the Omdena Lublin Local Chapter led by chapter leader Chojnacki, lasted 6 weeks and saw the cooperation of an international team of AI engineers. These cooperated steadily to define the problem, collect question-answer pairs and financial information, pre-process and annotate the data, create a ML algorithm for its classification, and eventually deploy and publishing the chatbot in Streamlit. The project run smoothly and was completed successfully.
+'Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living', a project by the Omdena Lublin Local Chapter led by chapter leader Bartosz Chojnacki, lasted over 6 weeks and saw the cooperation of an international team of AI engineers. These cooperated steadily to define the problem, collect question-answer pairs and financial information, pre-process and annotate the data, choose a suitable ML algorithm classification, and eventually deploy and publishing the chatbot in Streamlit. The project run smoothly and was completed successfully.
 
 # Introduction
 
 This challenge was created to create a conversational AI chatbot. Its main aim was to assist people affected by high inflation and increased cost of living. The challenge, which united an international team of AI engineers for over 6 weeks, was led by chapter lead Bartosz Chojnacki.
 
-The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work.
+The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work. Thematic workshops organised by Chojnacki were delivered to the participants during the project.
 
 ## Problem statement
 
-Inflation and high living costs have become a problem for the inhabitants of Poland. This problem is especially visible in the poorer parts of the country, such as the Lubelskie Voivodeship, with the city of Lublin, its capital. Current inflation rates indicate its level at 18%, which is the highest rate in 26 years in Poland. Such a high level of inflation causes the reduction of jobs in companies, or even the closure of entire enterprises. Many people have lost their jobs, which until recently was a very rare situation due to the low unemployment rate. This is a new situation for the inhabitants of Lublin, with which not everyone is coping with equally well. Consequently, these people need both financial and mental support.
+Inflation and high living costs have become a problem for the inhabitants of Poland. This problem is especially visible in the poorer parts of the country, such as the Lubelskie Voivodeship, with the city of Lublin, its capital. 
+
+Current inflation rates indicate its level at 18%, which is the highest rate in 26 years in Poland. Such a high level of inflation causes the reduction of jobs in companies, or even the closure of entire enterprises. Many people have lost their jobs, which until recently was a very rare situation due to the low unemployment rate. This is a new situation for the inhabitants of Lublin, with which not everyone is coping with equally well.
+
+This project aimed at providing both financial support to anyone struggling in the current situation.
 
 ## Project goal
 
-The goal of this project is to create a virtual chatbot that extracts the expression of mental health states through dialogue-based human-computer interaction to support people who cannot cope in these difficult economic times. The resulting chatbot will also be able to answer any user's questions about the possibility of saving money or depositing it safely.
+The goal of this project is to create a virtual chatbot that is able to answer any user's questions about the possibility of saving money or depositing it safely.
 
 ![An image from the Omdena chapter webpage](images/banner.png)
 
