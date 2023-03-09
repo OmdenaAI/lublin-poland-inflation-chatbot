@@ -70,7 +70,37 @@ From the insights of the EDA, we selected different data sources (Myfico, Boggle
 
 ###	Algorithm selection
 
-[…]
+In this task we explored the possibility to train/finetune existing transformers and
+model languages. Work was divided on two teams: the first one explored using
+Bert Based models, the second team explored language models. We finally opted
+for   language   models   because   Transformers   models   were   text   classification
+oriented, and in the case of question answering they require context, meaning
+that   for   training   and   finetuning,   we   must   provide   the   model   with   questions,
+answers, and the text paragraph from which we extract the answer. The  dataset
+we built for the project did not have the required structure and its transformation
+was time consuming.  The language models were the best option for our project. 
+We found issues with the dataset build from data collected from social networks.
+many   questions/answers   were   out   of   context,   long   sentences   instead   of   clear
+questions/answers. We decided to go back to data collection. We found a good
+finance   Q&A   dataset   used   a  Financial Opinion Mining and Question
+Answering  challeng   (https://sites.google.com/view/fiqa/home).   As   the   dataset
+was   well  structured   and  with  coherent   Q&A   pairs,   we  decided  to   use  it   in   the
+project.
+
+When it comes to Language Models tuning, the team eventually decided to work on OpenAI GPT3 models. Those considered are the following:
+
+<p align="center">
+  <img width="70%" height="70%" src="images/models_table.png">
+</p>
+
+We   started   to   finetune   ada   model   because   it   has   the   lowest   cost   among   the
+models; results obtained were not good. 
+
+We finally decided to work curie as it
+very capable model and is, compared to davinci, faster and costs 10 times less.
+The Curie model was trained for 8 epochs with the finQ&A dataset. 
+
+The resulting model, which we owe to Lamia Sekkai, was used within our chat-bot application.
 
 ##	Publishing
 
