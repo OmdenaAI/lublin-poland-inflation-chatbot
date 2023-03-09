@@ -14,17 +14,19 @@ The project run smoothly and was completed successfully.
 
 # Introduction
 
-This challenge was created to create a conversational AI chatbot. Its main aim was to assist people affected by high inflation and increased cost of living. The challenge, which united an international team of AI engineers for over 6 weeks, was led by chapter lead Bartosz Chojnacki.
+This challenge was created to develop a conversational AI chatbot. The main aim of our proposed solution was to assist people affected by high inflation and increased cost of living. 
 
-The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work. Thematic workshops organised by Chojnacki were delivered to the participants during the project.
+The challenge, which united an international team of AI engineers for over 6 weeks, was led by chapter lead Bartosz Chojnacki. The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work. 
+
+As one of the main goals of Omdena is to promote continuous, high-quality education, thematic workshops organised by Chojnacki were delivered to the participants during the project.
 
 ## Problem statement
 
-Inflation and high living costs have become a problem for the inhabitants of Poland. This problem is especially visible in the poorer parts of the country, such as the Lubelskie Voivodeship, with the city of Lublin, its capital. 
+Inflation and high living costs have become a problem for the inhabitants of Poland. This problem is especially visible in the poorer parts of the country, such as the Lubelskie Voivodeship, and in the city of Lublin, the country's capital. 
 
-Current inflation rates indicate its level at 18%, which is the highest rate in 26 years in Poland. Such a high level of inflation causes the reduction of jobs in companies, or even the closure of entire enterprises. Many people have lost their jobs, which until recently was a very rare situation due to the low unemployment rate. This is a new situation for the inhabitants of Lublin, with which not everyone is coping with equally well.
+Current inflation rates have raised at 18%, which is the highest rate in 26 years in Poland. Such a high level of inflation has caused job layoffs, and even the closure of entire enterprises. This is a very rare situation, as the country normally displays low unemployment rate.
 
-This project aimed at providing both financial support to anyone struggling in the current situation.
+Since not everyone in the country is coping with equally well in this situation, our project aimed at providing financial counselling to anyone who might be struggling.
 
 ## Project goal
 
@@ -34,19 +36,16 @@ The goal of this project was to create a virtual chatbot that is able to answer 
 
 # Our solution
 
-The team developed a financial chatbot based on the OpenAI `Curie` model fine-tuned on the [Financial Opinion Mining and Question Answering](https://sites.google.com/view/fiqa/home) dataset. The chatbot was later deployed as a Streamlit app.
+The team developed a financial chatbot based on the OpenAI ChatGPT-3 `curie` model fine-tuned on the [Financial Opinion Mining and Question Answering](https://sites.google.com/view/fiqa/home) dataset. The chatbot was later deployed as a Streamlit app.
 
-##	Domain research
+##	The data
 
-[…]
+Given the peculiarity of the task that we wanted out chatbot to perform, we could not only rely on existing language models, and decided to collect financial data to use to fine-tune a language model of our choice later.
 
-##	Data collection
+The collected data came from a variety of sources, mainly social media. It was done using well-known web-scraping tools such as beautifulsoup, lxml, and selenium. Sławomir Lisowski shared scripts for all of these with the team.
 
-[…]
+###	Data collection and EDA
 
-##	Exploratory Data Analysis
-
-[…]
 
 <p align="center">
   <img width="80%" height="80%" src="images/image(1).png">
@@ -60,9 +59,11 @@ The team developed a financial chatbot based on the OpenAI `Curie` model fine-tu
   <img width="70%" height="70%" src="images/image(2).png">
 </p>
 
-##	Data pre-processing
+###	Data pre-processing
 
-From the insights of the EDA, we selected different data sources (Myfico, Bogglehead and Quora forums). We completed Data Cleaning with feature selection, drop null rows, drop rows outside of context, and outliers’ question and answer length. All these data sources have been merged into one file. To this file, one copy has been made and then has been applied all the steps for NLP pre-processing. We removed all the punctuation, links, emojis, numbers, and stop words. Then applied tokenization and lemmatization using the module nltk. We kept the original file with all the data merged. We analysed what would be the best approach for different models with processed and unprocessed data.
+From the insights of the EDA, we selected different data sources (Myfico, Bogglehead and Quora forums). We completed Data Cleaning with feature selection, drop null rows, drop rows outside of context, and outliers’ question and answer length. All these data sources have been merged into one file. To this file, one copy has been made and then has been applied all the steps for NLP pre-processing. We removed all the punctuation, links, emojis, numbers, and stop words. Then applied tokenization and lemmatization using the module nltk. We kept the original file with all the data merged. 
+
+We analysed what would be the best approach for different models with processed and unprocessed data.
 
 At a later stage, we nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. We therefore decided to go back to data collection. The team found a good finance Q&A dataset, the [Financial Opinion Mining and Question Answering challenge](https://sites.google.com/view/fiqa/home). This was well-structured and featured coherent Q&A pairs. Light pre-processing was performed to be able to use the data to fine-tune a language model for our chatbot.
 
