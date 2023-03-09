@@ -62,6 +62,8 @@ The team developed a financial chatbot based on the OpenAI `Curie` model fine-tu
 
 From the insights of the EDA, we selected different data sources (Myfico, Bogglehead and Quora forums). We completed Data Cleaning with feature selection, drop null rows, drop rows outside of context, and outliers’ question and answer length. All these data sources have been merged into one file. To this file, one copy has been made and then has been applied all the steps for NLP pre-processing. We removed all the punctuation, links, emojis, numbers, and stop words. Then applied tokenization and lemmatization using the module nltk. We kept the original file with all the data merged. We analysed what would be the best approach for different models with processed and unprocessed data.
 
+At a later stage, we nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. We therefore decided to go back to data collection. The team found a good finance Q&A dataset, the [Financial Opinion Mining and Question Answering challenge](https://sites.google.com/view/fiqa/home). This was well-structured and featured coherent Q&A pairs.
+
 ##	The chatbot
 
 <p align="center">
@@ -74,15 +76,7 @@ In this task, the team explored the possibility to train/finetune existing trans
 
 The team eventually opted for the use of GPT-3 language models because all Transformer-based models tested by the team were text classification oriented, meaning that they require context in question-answering tasks. The  dataset we built for the project did not have the required structure and its transformation would have been unnecessarily time consuming.
 
-The GPT-3 language models were thus the best option for our project. We nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. 
-
-We therefore decided to go back to data collection. We found a good
-finance   Q&A   dataset   used   a  Financial Opinion Mining and Question
-Answering  challeng   (https://sites.google.com/view/fiqa/home).   As   the   dataset
-was   well  structured   and  with  coherent   Q&A   pairs,   we  decided  to   use  it   in   the
-project.
-
-When it comes to Language Models tuning, the team eventually decided to work on OpenAI GPT3 models. Those considered are the following:
+The GPT-3 language models were thus the best option for our project. Those considered are the following:
 
 <p align="center">
   <img width="70%" height="70%" src="images/models_table.png">
