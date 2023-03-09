@@ -84,7 +84,21 @@ The GPT-3 language models were thus the best option for our project. Those consi
 
 We started from fine-tuning the `ada` model because it has the lowest cost among all the models that we were considering. However, the results that we obtained were unsatisfactory. We therefore decided to rather work with `curie` as it is a very capable model which, compared to `davinci`, is faster and 10 times cheaper.
 
-The Curie model was trained for 8 epochs on the Financial Q&A dataset. The resulting fine-tuned model, which we owe to Lamia Sekkai, was used within our chat-bot application.
+The Curie model was trained for 8 epochs on the Financial Q&A dataset. The resulting fine-tuned model, which we owe to Lamia Sekkai, was used within our chat-bot application. Below are two screenshots from preliminary performance tests that were run after 4 fine-tuning epochs.
+
+<p align="center">
+  <img width="70%" height="70%" src="images/testing.png">
+</p>
+
+<p align="center">
+  <img width="70%" height="70%" src="images/testing2.png">
+</p>
+
+The same questions could not be answered by the non-fine-tuned `curie` model, as illustrated below:
+
+<p align="center">
+  <img width="70%" height="70%" src="images/testing3.png">
+</p>
 
 ###	Publishing
 
