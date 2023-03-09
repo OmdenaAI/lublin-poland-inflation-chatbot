@@ -82,16 +82,11 @@ The GPT-3 language models were thus the best option for our project. Those consi
   <img width="70%" height="70%" src="images/models_table.png">
 </p>
 
-We   started   to   finetune   ada   model   because   it   has   the   lowest   cost   among   the
-models; results obtained were not good. 
+We started from fine-tuning the `ada` model because it has the lowest cost among all the models that we were considering. However, the results that we obtained were unsatisfactory. We therefore decided to rather work with `curie` as it is a very capable model which, compared to `davinci`, is faster and 10 times cheaper.
 
-We finally decided to work curie as it
-very capable model and is, compared to davinci, faster and costs 10 times less.
-The Curie model was trained for 8 epochs with the finQ&A dataset. 
+The Curie model was trained for 8 epochs on the Financial Q&A dataset. The resulting fine-tuned model, which we owe to Lamia Sekkai, was used within our chat-bot application.
 
-The resulting model, which we owe to Lamia Sekkai, was used within our chat-bot application.
-
-##	Publishing
+###	Publishing
 
 Following the finalization of the chatbot algorithm, an interface was created on the [Streamlit](https://streamlit.io/) platform. 
 
