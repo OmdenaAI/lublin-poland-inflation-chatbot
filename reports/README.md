@@ -64,13 +64,11 @@ From the insights of the EDA, we selected different data sources (Myfico, Boggle
 
 ##	The chatbot
 
-[…]
+<p align="center">
+  <img width="70%" height="70%" src="images/streamlit.png">
+</p>
 
 ###	Algorithm selection
-
-[…]
-
-###	Deployment
 
 […]
 
