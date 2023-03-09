@@ -26,7 +26,7 @@ This project aimed at providing both financial support to anyone struggling in t
 
 ## Project goal
 
-The goal of this project is to create a virtual chatbot that is able to answer any user's questions about the possibility of saving money or depositing it safely.
+The goal of this project was to create a virtual chatbot that is able to answer any user's questions about the possibility of saving money or depositing it safely, and to support our engineers' continuous learning in the field of NLP and conversational AI.
 
 ![An image from the Omdena chapter webpage](images/banner.png)
 
