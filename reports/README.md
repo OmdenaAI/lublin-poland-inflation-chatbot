@@ -12,7 +12,7 @@
 
 # Introduction
 
-This challenge was created to create a conversational AI chatbot. Its main aim was to assist people affected by high inflation and increased cost of living. The challenge, which united an international team of AI engineers over 6 weeks, was led by chapter lead Bartosz Chojnacki.
+This challenge was created to create a conversational AI chatbot. Its main aim was to assist people affected by high inflation and increased cost of living. The challenge, which united an international team of AI engineers for over 6 weeks, was led by chapter lead Bartosz Chojnacki.
 
 The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work.
 
@@ -28,7 +28,7 @@ The goal of this project is to create a virtual chatbot that extracts the expres
 
 # Our solution
 
-[…]
+The team developed a financial chatbot based on the OpenAI `Curie` model fine-tuned on the [Financial Opinion Mining and Question Answering](https://sites.google.com/view/fiqa/home) dataset. The chatbot was later deployed as a Streamlit app.
 
 ##	Domain research
 
@@ -72,11 +72,19 @@ From the insights of the EDA, we selected different data sources (Myfico, Boggle
 
 ##	Publishing
 
-Following the finalization of the chatbot algorithm, an interface was created on the [Streamlit](https://streamlit.io/) platform. Streamlit is an open-source app framework for Machine Learning and Data Science. It helps create and publish web apps in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc., and it does not require any front-end experience.
+Following the finalization of the chatbot algorithm, an interface was created on the [Streamlit](https://streamlit.io/) platform. 
+
+Streamlit is an open-source app framework for Machine Learning and Data Science. It helps create and publish web apps in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc., and it does not require any front-end experience.
 
 Streamlit was selected due to its multifunctionality and ease of usage. It also allows for the model to be hosted online and accessed by its users. For scalability, Flask was considered for integration with the Streamlit-hosted app.
 
 The interface created by our engineers on Streamlit accepts an input from the chatbot user. This input is then sent through the model and an appropriate output is generated and subsequently displayed to the user.
+
+The team decided to add the Omdena Lublin Local Chapter's logo to the application landing page, as well as the following disclaimer: 'The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.'. 
+
+All publishing efforts were guided and coordinated by Vivienne Ordonez.
+
+The chatbot is now publicly available at the following link: [https://omdena-lublin-financial-chatbot.streamlit.app/](https://omdena-lublin-financial-chatbot.streamlit.app/).
 
 # Conclusions
 
