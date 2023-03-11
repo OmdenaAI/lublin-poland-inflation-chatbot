@@ -130,7 +130,7 @@ This report was written and submitted by Caterina Bonan, Postdoctoral Researcher
 
 ____________________________________________________
 
-### Participants (in alphabetical order)
+### Participants
 
 Rayan Kiswani
 
