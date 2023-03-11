@@ -44,17 +44,11 @@ The collected data came from a variety of sources (mainly social media). It was 
 
 Sławomir Lisowski shared scraping scripts for all of these libraries with the team.
 
-###	Data collection and EDA
+###	Data collection
 
 The team scraped question & answer discussions on financial topics from social media such as Reddit, Quora, Facebook, and forums such as Ficoforum and Boglehead. The Reddit files were later discarded because they lacked the answers to the collected questions.
 
-<p align="center">
-  <img width="80%" height="80%" src="images/image(1).png">
-</p>
-
-<p align="center">
-  <img width="50%" height="50%" src="images/image(3).png">
-</p>
+The EDA (selected picture from this stage below) confirmed that the collected data was indeed relevant to our project.
 
 <p align="center">
   <img width="70%" height="70%" src="images/image(2).png">
