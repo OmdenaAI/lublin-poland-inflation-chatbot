@@ -60,13 +60,9 @@ The EDA (selected picture from this stage below) confirmed that the collected da
 
 The team, led by task leader Thomas Gervais, performed data cleaning and feature selection. These included dropping null rows and all rows that were outside of context, as well as all outliers. 
 
-All data sources were merged into one file. One copy of this file was made to apply all necessary steps for NLP pre-processing. Punctuation, links, emojis, numbers, and stop words were removed. Tokenization and lemmatization were performed using the `nltk` library. We kept the original file with all the data merged. 
+All data sources were merged into one file. One copy of this file was made to apply all necessary steps for NLP pre-processing. Punctuation, links, emojis, numbers, and stop words were removed. Tokenization and lemmatization were performed using the `nltk` library. The original file with all the data merged was kept for record. 
 
-The team, led by task leader Thomas Gervais, performed data cleaning and feature selection. These included dropping null rows and all rows that were outside of context, as well as all outliers. All these data sources have been merged into one file. To this file, one copy has been made and then has been applied all the steps for NLP pre-processing. We removed all the punctuation, links, emojis, numbers, and stop words. Then applied tokenization and lemmatization using the module nltk. We kept the original file with all the data merged. 
-
-We analysed what would be the best approach for different models with processed and unprocessed data.
-
-At a later stage, we nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. We therefore decided to go back to data collection. 
+At a later stage, the team nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. We therefore decided to go back to data collection. 
 
 The team found a good finance Q&A dataset, the [Financial Opinion Mining and Question Answering challenge](https://sites.google.com/view/fiqa/home). This was well-structured and featured coherent Q&A pairs. Light pre-processing was performed to be able to use the data to fine-tune a language model for our chatbot.
 
