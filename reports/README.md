@@ -16,7 +16,7 @@ This challenge was created to develop a conversational AI chatbot. The main aim 
 
 The challenge, which united an international team of AI engineers for over 6 weeks, was led by chapter lead Bartosz Chojnacki. The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work. 
 
-As one of the main goals of Omdena is to promote continuous, high-quality education, thematic workshops organised by Chojnacki were delivered to the participants during the project.
+As one of the main goals of Omdena is to promote continuous, high-quality education, thematic workshops organised by Bartosz were delivered to the participants during the project.
 
 ## Problem statement
 
@@ -35,6 +35,8 @@ The goal of this project was to create a virtual chatbot that is able to answer 
 # Our solution
 
 The team developed a financial chatbot based on the OpenAI ChatGPT-3 `curie` model fine-tuned on the [Financial Opinion Mining and Question Answering](https://sites.google.com/view/fiqa/home) dataset. The chatbot was later deployed as a Streamlit app.
+
+To support the participants' learning, a workshop on vectorisation organised by leader Bartosz Chojnacki was delivered by Kacper Łukawski from [Qdrant](https://qdrant.tech/).
 
 ##	The data
 
@@ -60,7 +62,9 @@ We completed Data Cleaning with feature selection, drop null rows, drop rows out
 
 We analysed what would be the best approach for different models with processed and unprocessed data.
 
-At a later stage, we nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. We therefore decided to go back to data collection. The team found a good finance Q&A dataset, the [Financial Opinion Mining and Question Answering challenge](https://sites.google.com/view/fiqa/home). This was well-structured and featured coherent Q&A pairs. Light pre-processing was performed to be able to use the data to fine-tune a language model for our chatbot.
+At a later stage, we nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. We therefore decided to go back to data collection. 
+
+The team found a good finance Q&A dataset, the [Financial Opinion Mining and Question Answering challenge](https://sites.google.com/view/fiqa/home). This was well-structured and featured coherent Q&A pairs. Light pre-processing was performed to be able to use the data to fine-tune a language model for our chatbot.
 
 ##	The chatbot
 
