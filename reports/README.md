@@ -14,7 +14,7 @@
 
 This challenge was created to develop a conversational AI chatbot. The main aim of our proposed solution was to assist people affected by high inflation and increased cost of living. 
 
-The challenge, which united an international team of AI engineers for over 6 weeks, was led by chapter lead Bartosz Chojnacki. The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work. 
+The challenge, which united an international team of AI engineers for over 6 weeks, was led by chapter lead Bartosz Chojnacki. The common language for the chapter was English, and platforms such as GitHub and a dedicated Slack channed were used to coordinate and keep track of the engineers' work. The GitHub repository for the project will be made available shortly after the project completion: [https://github.com/OmdenaAI/lublin-poland-inflation-chatbot](https://github.com/OmdenaAI/lublin-poland-inflation-chatbot).
 
 As one of the main goals of Omdena is to promote continuous, high-quality education, thematic workshops organised by Bartosz were delivered to the participants during the project.
 
