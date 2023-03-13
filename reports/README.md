@@ -44,11 +44,11 @@ Given the peculiarity of the task that we wanted out chatbot to perform, we coul
 
 The collected data came from a variety of sources (mainly social media). It was done using well-known web-scraping tools such as beautifulsoup, lxml, and selenium. 
 
-Sławomir Lisowski shared scraping scripts for all of these libraries with the team.
-
 ###	Data collection
 
-The team scraped question & answer discussions on financial topics from social media such as Reddit, Quora, Facebook, and forums such as Ficoforum and Boglehead. The Reddit files were later discarded because they lacked the answers to the collected questions.
+The team scraped question & answer discussions on financial topics from social media such as Reddit, Quora, Facebook, and forums such as Ficoforum and Boglehead. Sławomir Lisowski shared scraping scripts for all of these libraries with the team.
+
+The Reddit files were later discarded because they lacked the answers to the collected questions.
 
 The EDA (selected picture from this stage below) confirmed that the collected data was indeed relevant to our project.
 
@@ -58,7 +58,11 @@ The EDA (selected picture from this stage below) confirmed that the collected da
 
 ###	Data pre-processing
 
-We completed Data Cleaning with feature selection, drop null rows, drop rows outside of context, and outliers’ question and answer length. All these data sources have been merged into one file. To this file, one copy has been made and then has been applied all the steps for NLP pre-processing. We removed all the punctuation, links, emojis, numbers, and stop words. Then applied tokenization and lemmatization using the module nltk. We kept the original file with all the data merged. 
+The team, led by task leader Thomas Gervais, performed data cleaning and feature selection. These included dropping null rows and all rows that were outside of context, as well as all outliers. 
+
+All data sources were merged into one file. One copy of this file was made to apply all necessary steps for NLP pre-processing. Punctuation, links, emojis, numbers, and stop words were removed. Tokenization and lemmatization were performed using the `nltk` library. We kept the original file with all the data merged. 
+
+The team, led by task leader Thomas Gervais, performed data cleaning and feature selection. These included dropping null rows and all rows that were outside of context, as well as all outliers. All these data sources have been merged into one file. To this file, one copy has been made and then has been applied all the steps for NLP pre-processing. We removed all the punctuation, links, emojis, numbers, and stop words. Then applied tokenization and lemmatization using the module nltk. We kept the original file with all the data merged. 
 
 We analysed what would be the best approach for different models with processed and unprocessed data.
 
