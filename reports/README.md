@@ -102,7 +102,7 @@ The same questions could not be answered by the non-fine-tuned `curie` model, as
   <img width="70%" height="70%" src="images/testing3.png">
 </p>
 
-While this task took longer to complete than we originally forecasted, the team are content with the resulting model's performance and, as a consequence, the overall performance of the chatbot that resulted from this project.
+While this task took longer to complete than we originally forecasted, the team are content with the resulting model's performance and, consequently, the overall performance of the chatbot that resulted from this project.
 
 ###	Publishing
 
@@ -122,7 +122,7 @@ The chatbot is now publicly available at the following link: [https://omdena-lub
 
 # Conclusions
 
-The 'Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living' project by the Omdena Lublin Local Chapter was carried out successfully and is now completed. The project constituted a great learning opportunity for many participants, and the resulting chatbot is now available for use to all those who might be in need of financial mentoring in the current economic situation.
+The 'Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living' project by the Omdena Lublin Local Chapter was carried out successfully and is now completed. The project constituted a great learning opportunity for many participants, and the resulting chatbot is now available for use to all those who might need financial mentoring in the current economic situation.
 
 ____________________________________________________
 
