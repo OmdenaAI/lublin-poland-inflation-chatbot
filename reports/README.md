@@ -120,7 +120,7 @@ The chatbot is now publicly available at the following link: [https://omdena-lub
 
 ____________________________________________________
 
-This report was written and submitted by Caterina Bonan, Postdoctoral Researcher at the University of Cambridge, who takes full responsibility for any mistake or inaccuracy in it.
+This report was written and submitted by Caterina Bonan, incoming Services Data Scientist at Five9, who takes full responsibility for any mistake or inaccuracy in it.
 
 ____________________________________________________
 
