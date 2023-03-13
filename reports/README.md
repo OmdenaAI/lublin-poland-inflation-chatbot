@@ -58,9 +58,9 @@ The EDA (selected picture from this stage below) confirmed that the collected da
 
 ###	Data pre-processing
 
-The team, led by task leader Thomas Gervais, performed data cleaning and feature selection. These included dropping null rows and all rows that were outside of context, as well as all outliers. 
+The team, led by task leader Thomas Gervais, performed data cleaning and feature selection. These included, in a first step, dropping null rows and all rows that were outside of context, as well as all outliers. 
 
-All data sources were merged into one file. One copy of this file was made to apply all necessary steps for NLP pre-processing. Punctuation, links, emojis, numbers, and stop words were removed. Tokenization and lemmatization were performed using the `nltk` library. The original file with all the data merged was kept for record. 
+All data sources were then merged into one file. One copy of this file was made to apply all necessary steps for NLP pre-processing. Punctuation, links, emojis, numbers, and stop words were removed. Tokenization and lemmatization were performed using the `nltk` library. The original file with all the data merged was kept for record. 
 
 At a later stage, the team nonetheless found issues with the dataset built from the data collected from social networks: many questions/answers were out of context, long sentences were often found instead of clear question-answer pairs. We therefore decided to go back to data collection. 
 
@@ -102,6 +102,8 @@ The same questions could not be answered by the non-fine-tuned `curie` model, as
   <img width="70%" height="70%" src="images/testing3.png">
 </p>
 
+While this task took longer to complete than we originally forecasted, the team are content with the resulting model's performance and, as a consequence, the overall performance of the chatbot that resulted from this project.
+
 ###	Publishing
 
 Following the finalization of the chatbot algorithm, an interface was created on the [Streamlit](https://streamlit.io/) platform. 
@@ -120,7 +122,7 @@ The chatbot is now publicly available at the following link: [https://omdena-lub
 
 # Conclusions
 
-[…]
+The 'Conversational AI Chatbot for People Affected by High Inflation and Increased Cost of Living' project by the Omdena Lublin Local Chapter was carried out successfully and is now completed. The project constituted a great learning opportunity for many participants, and the resulting chatbot is now available for use to all those who might be in need of financial mentoring in the current economic situation.
 
 ____________________________________________________
 
