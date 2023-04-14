@@ -36,6 +36,9 @@ The goal of this project was to create a virtual chatbot that is able to answer 
 
 The team developed a financial chatbot based on the OpenAI ChatGPT-3 `curie` model fine-tuned on the [Financial Opinion Mining and Question Answering](https://sites.google.com/view/fiqa/home) dataset. The chatbot was later deployed as a Streamlit app.
 
+This is the data pipeline architecture for our financial chatbot solution:
+![data_pipeline_architecture](images/data_pipeline_architecture.jpg)
+
 To support the participants' learning, a workshop on vectorisation organised by leader Bartosz Chojnacki was delivered by Kacper Łukawski from [Qdrant](https://qdrant.tech/).
 
 ##	The data
