@@ -131,6 +131,7 @@ ____________________________________________________
 
 This report was written and submitted by Caterina Bonan, incoming Services Data Scientist at Five9, who takes full responsibility for any mistake or inaccuracy in it.
 
+The data pipeline architecture was designed by @mhmdawnallah, who takes full responsibility for any mistake or inaccuracy in it.
 ____________________________________________________
 
 ### Participants
